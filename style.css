@@ -112,7 +112,7 @@ li a:hover {
     padding-top: 30px;
 }
 
-.header::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -212,4 +212,14 @@ opacity: 0.3;
 .listabox_due ul li {
     display: inline-block;
     padding: 20px;
+}
+
+.listabox_due ul li::before {
+    content: '';
+    background: url(img/iconok.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
 }
