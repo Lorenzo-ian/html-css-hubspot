@@ -159,7 +159,7 @@ section {
 }
 
 .box_due {
-    width: 65%;
+    width: 80%;
     height: 280px;
     margin: auto;
     margin-top: 30px;
@@ -202,17 +202,19 @@ section {
 }
 
 .box_duedxtextdue hr{
-margin-top: -10px;
-float: right;
-width: 250px;
-margin-right: 50px;
-opacity: 0.3;
+    margin-top: -10px;
+    float: right;
+    width: 350px;
+    margin-right: 50px;
+    opacity: 0.3;
 }
 
 .listabox_due ul li {
     display: inline-block;
     padding: 20px;
 }
+
+/* lista box 2 e box 3 */
 
 .listabox_due ul li::before {
     content: '';
@@ -222,4 +224,79 @@ opacity: 0.3;
     display: inline-block;
     margin-bottom: -5px;
     margin-right: 10px;
+}
+
+/* Sezione a tre colonne */
+
+
+
+.contbox_tre {
+    margin: auto;
+    height: 650px;
+    width: 67%;
+}
+
+.box_tre {
+    height: 550px;
+    width: 29.4%;
+    float: left;
+    background-color: white;
+    margin: 19px;
+    border-radius: 2%;
+    
+}
+
+.box_trehead {
+    text-align: center;
+}
+
+.box_trehead img{
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.h3special {
+    color: #546676;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.box_trefoot {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    color: #546676;
+}
+
+.box_trefoot hr {
+    margin-top: 20px;
+    opacity: 0.3;
+}
+
+.h5special {
+    color: #546676;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listabox_tre ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.listabox_tre ul li::before {
+    content: '';
+    background: url(img/iconok.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.listabox_tre button {
+    margin-left: 30%;
+    margin-top: 20px;
 }
