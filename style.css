@@ -14,7 +14,7 @@ body {
     border: 1px solid black;
     width: 100%;
     position: fixed;
-    background-color: lightgray;
+    background-color: #F5F8FA;
     top: 0;
     left: 0;
 }
@@ -112,18 +112,22 @@ li a:hover {
     padding-top: 30px;
 }
 
+/* CLEARFIX GENERALE */
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+/*------------------------------*/
+
 /* parte section */
 
 section {
     height: 800px;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #F5F8FA;
 }
 
 /* sezione a una colonna */
