@@ -300,3 +300,74 @@ section {
     margin-left: 30%;
     margin-top: 20px;
 }
+
+/* Sezione a 8 box */ 
+
+.box_eight {
+    background-color: #00B4AE;
+    width: 100%;
+    height: 950px;
+    color: white;
+}
+
+.box_eighthead {
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.box_eighthead h2 {
+    font-size: 35px;
+}
+
+.box_eighthead p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.box_eightfoot {
+    width: 80%;
+    height: 225px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box_eightfoot_up {
+    height: 100%;
+    width: calc(100%/4);
+    float: left;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.box_eightfoot_down {
+    height: 100%;
+    width: calc(100%/4);
+    float: left;
+    border-right: 1px solid white;
+}
+
+.box_eightfoot img {
+    margin-top: 50px;
+}
+
+.box_eightfootspan {
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+
+.box_eight span {
+    display: inline-block;
+}
+
+/* ultimo figlio di box_eightfoot per togliere bordo bianco */
+
+.box_eightfoot :last-child {
+    border-right: none;
+}
+
+/*--------------------------------------------------*/
